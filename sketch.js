@@ -22,7 +22,7 @@ function draw(){
     game.update(1);
   }
   if(gameState === 1){
-    // clear();
+    clear();
     game.play();
   }
 }
